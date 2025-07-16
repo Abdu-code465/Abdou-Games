@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abdou Games - تحميل ألعاب PC</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #121212;
+      color: #f1f1f1;
+    }
+    header {
+      background-color: #1f1f1f;
+      padding: 20px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+      color: #00bfff;
+    }
+    .game-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .game-card {
+      background-color: #1e1e1e;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 10px #000;
+    }
+    .game-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .game-card .content {
+      padding: 15px;
+    }
+    .game-card .content h3 {
+      margin: 0 0 10px;
+      font-size: 18px;
+    }
+    .game-card .content p {
+      font-size: 14px;
+      margin: 0 0 10px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 8px 15px;
+      background-color: #00bfff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background-color: #0099cc;
+    }
+    footer {
+      background-color: #1f1f1f;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    🎮 Abdou Games - تحميل ألعاب PC 🔥
+  </header>
+
+  <section class="game-list">
+    <div class="game-card">
+      <img src="https://upload.wikimedia.org/wikipedia/en/a/a5/Grand_Theft_Auto_V.png" alt="GTA V">
+      <div class="content">
+        <h3>GTA V</h3>
+        <p>لعبة عالم مفتوح 🔫 | Action & Crime<br>الحجم: 60GB | CPU: i5 | RAM: 8GB</p>
+        <a class="btn" href="https://www.mediafire.com/file/example/gta-v">تحميل من MediaFire</a>
+      </div>
+    </div>
+
+    <div class="game-card">
+      <img src="https://upload.wikimedia.org/wikipedia/en/2/2c/Need_for_Speed_Most_Wanted_cover.jpg" alt="NFS Most Wanted">
+      <div class="content">
+        <h3>NFS Most Wanted</h3>
+        <p>سباقات وسيارات 🏎️ | حجم خفيف<br>الحجم: 2GB | CPU: Dual Core | RAM: 2GB</p>
+        <a class="btn" href="https://drive.google.com/file/example/nfs-mw">تحميل من Google Drive</a>
+      </div>
+    </div>
+
+    <div class="game-card">
+      <img src="https://upload.wikimedia.org/wikipedia/en/3/33/Assassins_Creed_IV_Black_Flag_cover.jpg" alt="Assassin's Creed IV">
+      <div class="content">
+        <h3>Assassin's Creed IV</h3>
+        <p>تخفي ومغامرات ⚔️ | البحر و السفن<br>الحجم: 25GB | CPU: i5 | RAM: 4GB</p>
+        <a class="btn" href="https://www.mediafire.com/file/example/ac-iv">تحميل من MediaFire</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Abdou Games | جميع الحقوق محفوظة ✅
+  </footer>
+</body>
+</html>
